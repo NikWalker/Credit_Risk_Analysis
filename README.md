@@ -36,7 +36,9 @@ Balanced Accuracy Scores, Confusion Matrixes and Imbalanced Classification Repor
 * #### Classification Report
 ![naive_random_oversampling_precision.](png/naive_random_oversampling_precision.png)
 
-xxx
+* Accuracy: The model correctly predicts 66.1% of the high risk classifications.
+* Precison: The high_risk precision is about 1%. This means if a customer is flagged as high-risk, the probabilty of them actually being high-risk is very low. 
+* Recall: The model's recall is 72%, meaning that actual high-risk applicants were identified by the model. Alternativley, 28% of acutal high-risk customers were not identified.
 
 ### SMOTE Oversampling 
 
@@ -49,7 +51,9 @@ xxx
 * #### Classification Report
 ![smote_classification](png/smote_classification.png)
 
-xxx
+* Accuracy: The model correctly predicts 65.8% of the high risk classifications.
+* Precison: The high_risk precision is about 1%. This means if a customer is flagged as high-risk, the probabilty of them actually being high-risk is very low. 
+* Recall: The model's recall is 62%, meaning that actual high-risk applicants were identified by the model. Alternativley, 38% of acutal high-risk customers were not identified.
 
 ### Undersampling with Cluster Centroids 
 
@@ -62,7 +66,10 @@ xxx
 * #### Classification Report
 ![cluster_undersampling_classification](png/cluster_undersampling_classification.png)
 
-xxx
+* Accuracy: The model correctly predicts 54.4% of the high risk classifications.
+* Precison: The high_risk precision is about 1%. This means if a customer is flagged as high-risk, the probabilty of them actually being high-risk is very low. 
+* Recall: The model's recall is 69%, meaning that actual high-risk applicants were identified by the model. Alternativley, 31% of acutal high-risk customers were not identified.
+
 
 ### SMOTEENN Combination Sampling 
 
@@ -75,7 +82,9 @@ xxx
 * #### Classification Report
 ![smoteenn_classification](png/smoteenn_classification.png)
 
-xxx
+* Accuracy: The model correctly predicts 67.1% of the high risk classifications.
+* Precison: The high_risk precision is about 1%. This means if a customer is flagged as high-risk, the probabilty of them actually being high-risk is very low. 
+* Recall: The model's recall is 77%, meaning that actual high-risk applicants were identified by the model. Alternativley, 23% of acutal high-risk customers were not identified.
 
 ### Balanced Random Forest Classifier
 
@@ -88,7 +97,10 @@ xxx
 * #### Classification Report
 ![balanced_random_forest_classification](png/balanced_random_forest_classification.png)
 
-xxx
+* Accuracy: The model correctly predicts 87.3% of the high risk classifications.
+* Precison: The high_risk precision is about 3%. This means if a customer is flagged as high-risk, the probabilty of them actually being high-risk is very low. 
+* Recall: The model's recall is 70%, meaning that actual high-risk applicants were identified by the model. Alternativley, 30% of acutal high-risk customers were not identified.
+
 
 ### Easy Ensemble AdaBoost Classifier
 
@@ -101,6 +113,9 @@ xxx
 * #### Classification Report
 ![eec_classification](png/eec_classification.png)
 
-xxx
+* Accuracy: The model correctly predicts 93.2% of the high risk classifications.
+* Precison: The high_risk precision is about 9%. 
+* Recall: The model's recall is 92%, meaning that actual high-risk applicants were identified by the model. Alternativley, 8% of acutal high-risk customers were not identified.
 
 ## Summary
+
